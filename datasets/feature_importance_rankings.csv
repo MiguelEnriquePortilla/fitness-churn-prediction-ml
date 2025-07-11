@@ -1,0 +1,14 @@
+rank,feature_name,model_type,importance_score,coefficient_value,abs_importance,business_interpretation,impact_direction,actionability_score,monitoring_priority,intervention_potential
+1,Avg_class_frequency_current_month,Logistic Regression,0.302,-4.1749,4.1749,Current activity frequency is the strongest predictor - each additional visit per week reduces churn risk by 98.5%,Protective,High,Critical,Very High
+2,Lifetime,Logistic Regression,0.251,-3.7182,3.7182,Customer tenure demonstrates loyalty development - each additional month reduces churn risk by 97.6%,Protective,Medium,High,Medium
+3,Avg_additional_charges_total,Logistic Regression,0.187,-0.5866,0.5866,Economic engagement indicates commitment - higher spending correlates with 44.4% lower churn risk,Protective,High,High,High
+4,Contract_period,Logistic Regression,0.123,-0.6290,0.6290,Contractual commitment reduces flexibility but increases retention by 46.7% for longer terms,Protective,High,Medium,High
+5,Age,Logistic Regression,0.089,-1.2071,1.2071,Customer maturity factor - each additional year reduces churn risk by 70.1%,Protective,Low,Medium,Low
+6,Month_to_end_contract,Logistic Regression,0.034,-0.6352,0.6352,Renewal timing creates urgency - proximity to contract end increases risk by 47.0%,Risk Factor,Medium,High,High
+7,Group_visits,Logistic Regression,0.012,-0.4020,0.4020,Social engagement through group classes reduces churn risk by 33.1%,Protective,High,Medium,High
+8,Near_Location,Logistic Regression,0.007,-0.0201,0.0201,Geographic convenience shows minimal but consistent impact on retention,Protective,Low,Low,Low
+9,Promo_friends,Logistic Regression,0.005,-0.2528,0.2528,Referral acquisition indicates social validation and reduces churn risk,Protective,Low,Low,Medium
+10,Partner,Logistic Regression,0.003,-0.0662,0.0662,Corporate partnership provides institutional stability for retention,Protective,Medium,Low,Medium
+11,Phone,Logistic Regression,0.002,-0.0335,0.0335,Contact availability enables customer service but shows minimal churn impact,Protective,Low,Low,Low
+12,gender,Logistic Regression,0.001,0.0153,0.0153,Gender demographics show no significant churn prediction value,Neutral,Low,Low,None
+13,Avg_class_frequency_total,Random Forest,0.165,N/A,N/A,Historical activity patterns provide context but current behavior is more predictive,Contextual,Low,Low,Low
